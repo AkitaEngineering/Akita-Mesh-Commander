@@ -80,10 +80,7 @@ Akita Mesh Commander is an Akita Engineering plugin designed to manage Meshtasti
 * **Meshtastic Communication:** The `mesh_api.py` module contains placeholder code for Meshtastic device communication. You will need to replace this with code that matches your specific Meshtastic setup and firmware.
 * **Akita Integration:** This plugin must be integrated with the Akita Engineering platform to function correctly.
 * **Serial Ports:** Ensure that the serial port names in the `config.json` file are correct.
-* **Error Handling:** While error handling has been improved, further testing and refinement are recommended.
-* **Security:** Implement appropriate security measures for production environments.
 * **UI:** A user interface is not included in this release.
-* **Node Discovery:** The current node discovery method is basic. Implement a more robust discovery mechanism for larger networks.
 * **Meshtastic Command Parsing:** The parsing of meshtastic responses within the `mesh_api.py` file needs to be adjusted to match the output of your specific meshtastic firmware.
 
 ## Contributing
